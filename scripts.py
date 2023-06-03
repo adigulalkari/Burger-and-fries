@@ -1,8 +1,12 @@
 # Using flask to make an api
 # import necessary libraries and functions
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 from face_detect import detect_faces
 from gun_detect import detect_weapon
+from flask_cors import CORS  # Import the CORS module
+
+app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # creating a Flask app
 app = Flask(__name__)
@@ -26,7 +30,9 @@ def home():
                 severity+=3
         if(count==3):
             severity+=10
-    return jsonify({'Level': severity})
+    return render_template("frontend.html",data=severity)
+    #return jsonify({'Level': severity})
+
 
 
 
