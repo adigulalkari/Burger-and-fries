@@ -1,0 +1,54 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C1939;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  /* Styles for Record Details page */
+  .details {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .specific-details {
+    margin-top: 20px;
+  }
+  
+  /* Styles for Welcome page */
+  .btn {
+    margin-top: 20px;
+  }
+  
+  .btn a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn a:hover {
+    background-color: #555;
+  }
+  
