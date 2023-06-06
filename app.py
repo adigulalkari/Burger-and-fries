@@ -35,6 +35,15 @@ def functioning():
     return render_template("function.html",data=severity,token=token,token1=token1, count=count*3)
     #return jsonify({'Level': severity})
 
+# @app.route('/pin', methods=['GET', 'POST'])
+# def pincode():
+#      pin_val=345467
+#      if request.method == 'POST':
+#         pin = request.form.get('pin')
+#         if pin == pin_val:
+             
+
+
 
 
 

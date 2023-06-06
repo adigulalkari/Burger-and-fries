@@ -13,7 +13,7 @@ body {
     padding: 20px;
   }
   
-  h1, h2 {
+  h1, h2, p {
     color: #fff;
   }
   
@@ -21,21 +21,22 @@ body {
     margin-top: 0;
   }
   
-  /* Styles for Record Details page */
-  .details {
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    padding: 20px;
-    color: #333;
-  }
-  
-  .specific-details {
-    margin-top: 20px;
-  }
-  
   /* Styles for Welcome page */
+  .hero > h1,h2{
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
   .btn {
-    margin-top: 20px;
+    text-align: center;
   }
   
   .btn a {
@@ -51,4 +52,25 @@ body {
   .btn a:hover {
     background-color: #555;
   }
+  
+  /* Styles for Record Details page */
+  .details {
+    padding: 20px;
+    color: #333;
+  }
+  
+  .details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .specific-details {
+    margin-top: 20px;
+  }
+  
+  .specific-details p {
+    margin-bottom: 10px;
+  }
+  
   
