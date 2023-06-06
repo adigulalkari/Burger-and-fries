@@ -1,0 +1,76 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C1939;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    color: #fff;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  /* Styles for Welcome page */
+  .hero > h1,h2{
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    text-align: center;
+  }
+  
+  .btn a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn a:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for Record Details page */
+  .details {
+    padding: 20px;
+    color: #333;
+  }
+  
+  .details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .specific-details {
+    margin-top: 20px;
+  }
+  
+  .specific-details p {
+    margin-bottom: 10px;
+  }
+  
+  
